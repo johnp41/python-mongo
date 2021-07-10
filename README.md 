@@ -1,0 +1,7 @@
+To run :
+1. docker run -it -v mongo_data:/data/db -p 27017:27017  -d mongo
+2. python3 collect.py
+3. in containarize mongo run : 1. show dbs
+                               2. use javatpoint
+                               3. show collections
+                               4. dbs.employee.find()
